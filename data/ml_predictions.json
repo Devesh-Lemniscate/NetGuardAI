@@ -1,13 +1,122 @@
 [
   {
-    "timestamp": "2025-10-24T22:07:55.335550",
+    "timestamp": "2025-10-25T10:35:49.537495",
+    "is_threat": true,
+    "threat_type": "malware_detected",
+    "confidence": 0.8589703240986462,
+    "features": {
+      "total_packets": 349,
+      "unique_src_ips": 23,
+      "unique_dst_ips": 28,
+      "total_bytes": 14299
+    }
+  },
+  {
+    "timestamp": "2025-10-25T10:35:51.538433",
     "is_threat": false,
     "threat_type": "normal",
-    "confidence": 0.52,
+    "confidence": 0.6704391771422438,
     "features": {
-      "total_packets": 591,
-      "unique_src_ips": 22,
-      "unique_dst_ips": 22,
-      "unique_src_ports": 52,
-      "unique_dst_ports": 52,
-      "total_bytes": 
+      "total_packets": 499,
+      "unique_src_ips": 27,
+      "unique_dst_ips": 24,
+      "total_bytes": 86109
+    }
+  },
+  {
+    "timestamp": "2025-10-25T10:35:53.539702",
+    "is_threat": true,
+    "threat_type": "port_scan",
+    "confidence": 0.7297701330077347,
+    "features": {
+      "total_packets": 260,
+      "unique_src_ips": 28,
+      "unique_dst_ips": 8,
+      "total_bytes": 24904
+    }
+  },
+  {
+    "timestamp": "2025-10-25T10:35:55.541215",
+    "is_threat": true,
+    "threat_type": "port_scan",
+    "confidence": 0.9419143949916631,
+    "features": {
+      "total_packets": 344,
+      "unique_src_ips": 20,
+      "unique_dst_ips": 9,
+      "total_bytes": 89347
+    }
+  },
+  {
+    "timestamp": "2025-10-25T10:35:57.542733",
+    "is_threat": false,
+    "threat_type": "normal",
+    "confidence": 0.8011580099145419,
+    "features": {
+      "total_packets": 395,
+      "unique_src_ips": 26,
+      "unique_dst_ips": 15,
+      "total_bytes": 15409
+    }
+  },
+  {
+    "timestamp": "2025-10-25T10:35:59.544352",
+    "is_threat": false,
+    "threat_type": "normal",
+    "confidence": 0.62347872186368,
+    "features": {
+      "total_packets": 308,
+      "unique_src_ips": 7,
+      "unique_dst_ips": 9,
+      "total_bytes": 99131
+    }
+  },
+  {
+    "timestamp": "2025-10-25T10:36:01.546252",
+    "is_threat": false,
+    "threat_type": "normal",
+    "confidence": 0.8007648250889132,
+    "features": {
+      "total_packets": 198,
+      "unique_src_ips": 24,
+      "unique_dst_ips": 30,
+      "total_bytes": 31255
+    }
+  },
+  {
+    "timestamp": "2025-10-25T10:36:03.547805",
+    "is_threat": false,
+    "threat_type": "normal",
+    "confidence": 0.7991904022508243,
+    "features": {
+      "total_packets": 495,
+      "unique_src_ips": 13,
+      "unique_dst_ips": 11,
+      "total_bytes": 11508
+    }
+  },
+  {
+    "timestamp": "2025-10-25T10:36:05.549585",
+    "is_threat": false,
+    "threat_type": "normal",
+    "confidence": 0.7431052923132779,
+    "features": {
+      "total_packets": 436,
+      "unique_src_ips": 19,
+      "unique_dst_ips": 5,
+      "total_bytes": 34713
+    }
+  },
+  {
+    "timestamp": "2025-10-25T10:36:07.551571",
+    "is_threat": false,
+    "threat_type": "normal",
+    "confidence": 0.8003611813620252,
+    "features": {
+      "total_packets": 454,
+      "unique_src_ips": 27,
+      "unique_dst_ips": 26,
+      "total_bytes": 81773
+    }
+  }
+]
